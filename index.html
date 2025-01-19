@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>BAB 1: PENGANTAR HTML</h1>
+  </header>
+  <section>
+    <h3>Apa itu HTML</h3>
+    
+    <p>HTML adalah singkatan dari <span class="hyper">HyperText Markup Language</span>. Secara sederhana, HTML adalah cara untuk memberi struktur pada sebuah halaman web dengan menggunakan berbagai macam tag atau elemen markup. Tag-tag ini memberi petunjuk kepada browser bagaimana cara menampilkan informasi di halaman web, seperti teks, gambar, video, tabel, dan lainnya.</p>
+    
+    <p><span class="hyper">HTML bukanlah bahasa pemrograman,</span> melainkan bahasa markup. Itu berarti HTML hanya digunakan untuk memberi struktur dan format pada halaman, bukan untuk menjalankan logika atau perhitungan seperti yang dilakukan bahasa pemrograman (seperti Python atau JavaScript).</p>
+    
+    <hr />
+    
+    <h3>Kenapa HTML Itu Penting?</h3>
+    <p>HTML adalah dasar dari semua halaman web. Tanpa HTML, halaman web tidak akan bisa ditampilkan. Misalnya, jika kamu mengunjungi sebuah halaman web, browser kamu akan membaca HTML untuk mengetahui apa yang harus ditampilkan dan bagaimana menampilkannya.</p>
+    
+    <p>Semua konten yang ada di halaman web — baik itu teks, gambar, atau video — memerlukan HTML untuk mengatur bagaimana dan di mana konten itu muncul. Bahkan saat kamu menggunakan aplikasi web seperti media sosial, HTML menjadi pondasi yang digunakan untuk menampilkan antarmuka pengguna.</p>
+    
+    <hr />
+    
+    <h3>Dasar-Dasar Struktur HTML</h3>
+    
+    <p>Sebuah dokumen HTML memiliki struktur yang konsisten dan harus mengikuti aturan tertentu agar browser bisa membacanya dengan benar. Setiap dokumen HTML dimulai dengan sebuah deklarasi <span class="code">&lt;!DOCTYPE html&gt;</span>  yang memberitahukan browser bahwa dokumen ini menggunakan HTML5, <span class="hyper">versi terbaru dari HTML.</span></p>
+    
+    <h4>Berikut adalah struktur dasar dari sebuah dokumen HTML:</h4>
+    
+    <pre><code>
+<span class="tag">&lt;!DOCTYPE html&gt;</span>
+<span class="tag">&lt;html lang="<span class="value">id</span>"&gt;</span>
+  <span class="tag">&lt;head&gt;</span>
+      <span class="tag">&lt;meta charset="<span class="value">UTF-8</span>"&gt;</span>
+      <span class="tag">&lt;meta name="<span class="attribute">viewport</span>" content="<span class="value">width=device-width, initial-scale=1.0</span>"&gt;</span>
+      <span class="tag">&lt;title&gt;</span>Judul Halaman<span class="tag">&lt;/title&gt;</span>
+  <span class="tag">&lt;/head&gt;</span>
+  <span class="tag">&lt;body&gt;</span>
+      <span class="tag">&lt;h1&gt;</span>Selamat Datang di Halaman HTML<span class="tag">&lt;/h1&gt;</span>
+      <span class="tag">&lt;p&gt;</span>Ini adalah paragraf pertama saya di HTML.<span class="tag">&lt;/p&gt;</span>
+  <span class="tag">&lt;/body&gt;</span>
+<span class="tag">&lt;/html&gt;</span>
+    </code></pre>
+    
+    <h5>Penjelasan tentang struktur di atas:</h5>
+    
+    <span class="number">1.</span><span class="code">&lt;!DOCTYPE html&gt;</span>
+    <p>Ini adalah deklarasi yang memberi tahu browser bahwa dokumen ini adalah HTML5. HTML5 adalah standar terbaru yang digunakan dalam pengembangan web modern.</p>
+    
+    <span class="number">2.</span><span class="code">&lt;html&gt;</span>
+    <p>Tag ini menandai awal dari dokumen HTML dan mencakup seluruh konten halaman. Atribut <span class="hyper"> lang="id"</span> memberitahu browser bahwa bahasa yang digunakan dalam halaman ini adalah bahasa Indonesia.</p>
+    
+    <span class="number">3.</span><span class="code">&lt;head&gt;</span>
+    <p>Bagian ini berisi informasi yang tidak langsung terlihat oleh pengguna di halaman web. Di dalamnya, kita memiliki:</p>
+    
+    <p>👉 <span class="code2">&lt;meta charset="UTF-8"&gt;</span>: Memberi tahu browser untuk menggunakan pengkodean karakter <span class="hyper">UTF-8 </span> agar bisa menampilkan berbagai karakter internasional.</p>
+    
+    <p>👉 <span class="code2">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span>: Ini memastikan bahwa halaman web responsif dan dapat menyesuaikan tampilannya pada perangkat dengan ukuran layar yang berbeda, seperti smartphone atau tablet.</p>
+    
+    <p>👉 <span class="code2">&lt;title&gt;</span>: Menentukan judul halaman yang akan ditampilkan di tab browser.</p>
+    
+    <span class="number">5.</span><span class="code">&lt;body&gt;</span>
+    <p>Semua konten yang ingin kita tampilkan di halaman web, seperti teks, gambar, dan lainnya, dimasukkan dalam bagian <span class="hyper">&lt;body&gt;</span>. Ini adalah bagian yang terlihat oleh pengguna.</p>
+    
+    <hr />
+    
+    <h3>Tag HTML</h3>
+    <p>HTML memiliki banyak sekali tag untuk membuat berbagai elemen di halaman web. Di bab-bab berikutnya, kita akan mempelajari berbagai tag HTML yang umum digunakan, seperti tag untuk teks, gambar, tautan, dan lain-lain.</p>
+    
+    <hr />
+    
+    <h3>Kesimpulan</h3>
+    <p>HTML adalah dasar dari pembuatan halaman web. Di bab selanjutnya, kita akan mulai mempelajari tag-tag HTML yang lebih detail, serta bagaimana cara menggunakan tag-tag ini untuk membuat halaman web yang lebih kompleks. Jadi, jangan khawatir jika kamu merasa banyak tag yang harus dipelajari, karena setiap bab akan menjelaskan dengan jelas dan terstruktur.</p>
+    
+  </section>
+  
+  <!-- Tombol untuk lanjut ke Bab 2, awalnya disembunyikan -->
+<a href="bab2.html" class="next-button" id="nextButton" style="display: none;">Lanjutkan ke Bab 2</a>
+<!-- Tombol "Selesai" untuk menandai bab 1 sudah dibaca -->
+<button id="finishButton">Selesai Membaca Bab 1</button>
+  
+  <script src="script.js"></script>
+</body>
+</html>
