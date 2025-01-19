@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #4A90E2, #50E3C2);
+    color: white;
+    padding: 60px 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.sub-heading {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.content, .menu, .ready-to-learn {
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.menu h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu-item {
+    display: block;
+    padding: 12px 25px;
+    background: linear-gradient(45deg, #4A90E2, #50E3C2);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+    background: linear-gradient(45deg, #50E3C2, #4A90E2);
+    border-color: #50E3C2;
+}
+
+.menu-item:active {
+    transform: scale(0.95);
+}
+
+.menu-item.locked {
+    background: #ccc;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.ready-to-learn p {
+    font-size: 18px;
+    margin-top: 20px;
+}
